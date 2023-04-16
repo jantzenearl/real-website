@@ -1,0 +1,152 @@
+
+
+
+.mainbody{
+  background-color:#3a7380;
+  height: 100px;
+}
+
+
+nav{
+    background-color: #7e615a;
+    padding: 10px;
+    overflow: hidden;
+  
+
+}
+
+nav a{
+    float: left;
+    color:black;
+    padding: 10px 25px;
+    text-decoration:none;
+    font-size: 16px;
+    font-weight: bold;
+    text
+}
+
+nav a:hover{
+    background-color:gray;
+}
+
+p{
+
+      color: #000000;
+      font-size: medium;
+      font-weight: 100;
+}
+
+.header{height: 100px;
+  background-color: #e2e2e2;
+  line-height: 100px;
+}
+
+header{
+    position: relative;
+    padding-top: calc(8rem + 57px);
+    padding-bottom: calc(7rem + 200px);
+    background-size: cover;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.footer{
+  background-color:##dbdada;
+}
+
+body{
+    background-color: #dbdada;
+}
+#top{
+    text-decoration: underline;
+}
+
+
+ol{
+    list-style-position:inherit
+}
+ul{
+    list-style-position:outside
+}
+
+H1{
+    text-align: center;
+    color: #7e6058;
+    text-decoration-line:underline
+}
+
+h2,h3{
+  color: #7e6058;
+}
+
+button{
+  appearance: button;
+      background-color: #7e615a;
+      background-image: none;
+      border: 1px solid #000;
+      border-radius: 4px;
+      box-shadow: #fff 4px 4px 0 0,#7e615a 4px 4px 0 1px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      margin: 0 5px 10px 0;
+      overflow: visible;
+      padding: 12px 40px;
+      text-align: center;
+      text-transform: none;
+      touch-action: manipulation;
+      user-select: none;
+      -webkit-user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+    
+    .button-50:focus {
+      text-decoration: none;
+    }
+    
+    .button-50:hover {
+      text-decoration: none;
+    }
+    
+    .button-50:active {
+      box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+      outline: 0;
+    }
+    
+    .button-50:not([disabled]):active {
+      box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+      transform: translate(2px, 2px);
+    }
+    
+    @media (min-width: 768px) {
+      .button-50 {
+        padding: 12px 50px;
+      }
+    }
+
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .column {
+      flex: 1;
+      padding: 5px;
+    }
+  
+    
+    
+    
+    
